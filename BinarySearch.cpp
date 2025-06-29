@@ -1,4 +1,3 @@
-~~~cpp
 //vector must be sorted in nondecreasing order beforehand
 template <typename T> int binarySearch(int val, vector<T>& v) {
   int l=0, r=v.size();
@@ -10,5 +9,3 @@ template <typename T> int binarySearch(int val, vector<T>& v) {
   }
   return -1;
 }
-
-~~~
